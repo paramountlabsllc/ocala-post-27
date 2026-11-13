@@ -9,9 +9,3 @@ menuButton.addEventListener('click', () => {
 document.querySelectorAll('.main-nav a').forEach((link) => {
   link.addEventListener('click', () => navigation.classList.remove('open'));
 });
-
-document.querySelector('#newsletter-form').addEventListener('submit', (event) => {
-  event.preventDefault();
-  document.querySelector('#form-message').textContent = 'Thanks for subscribing to Post 27 news.';
-  event.currentTarget.reset();
-});
