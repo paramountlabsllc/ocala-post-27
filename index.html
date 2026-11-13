@@ -86,6 +86,28 @@
             <article class="service-card"><span class="service-index">08</span><h3>Mental health</h3><p>Find confidential connections to local nonprofits and VA resources for mental health and wellbeing.</p></article>
           </div>
           <p class="service-disclaimer">Post 27 provides information, guidance and referrals. A Service Officer can help identify the right next step for your situation.</p>
+          <form class="service-intake" action="https://formsubmit.co/jacob@jdk.us" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="_subject" value="New Post 27 Service Officer request" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="true" />
+            <div class="service-intake-heading"><p class="eyebrow red">REQUEST SERVICE OFFICER SUPPORT</p><h3>Tell us how we can help.</h3><p>Share a few details and a Post 27 Service Officer will follow up with you.</p></div>
+            <div class="service-intake-grid">
+              <label for="service-first-name">First name</label><input id="service-first-name" name="first_name" type="text" required />
+              <label for="service-last-name">Last name</label><input id="service-last-name" name="last_name" type="text" required />
+              <label for="service-email">Email</label><input id="service-email" name="email" type="email" required />
+              <label for="service-phone">Phone</label><input id="service-phone" name="phone" type="tel" required />
+              <label for="service-address">Address</label><input id="service-address" name="address" type="text" />
+              <label for="service-city">City</label><input id="service-city" name="city" type="text" />
+              <label for="service-state">State</label><input id="service-state" name="state" type="text" />
+              <label for="service-zip">ZIP / Postal code</label><input id="service-zip" name="postal_code" type="text" />
+              <label for="service-branch">Branch of service</label><input id="service-branch" name="branch_of_service" type="text" />
+              <label for="service-interest">Service of interest</label><select id="service-interest" name="service_interest" required><option value="" disabled selected>Choose a service</option><option>Housing</option><option>Healthcare</option><option>VA Disability</option><option>Education</option><option>Employment</option><option>Legal assistance</option><option>Entrepreneurship</option><option>Mental health</option><option>Other</option></select>
+              <label for="service-information">Additional information</label><textarea id="service-information" name="additional_information" rows="5" placeholder="Tell us what you would like help with."></textarea>
+              <label for="service-file">Supporting document</label><input id="service-file" name="attachment" type="file" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" />
+            </div>
+            <p class="service-intake-note">You may attach a document that will help prepare for your meeting, such as a DD-214 or resume. Please do not send account passwords or other highly sensitive information.</p>
+            <button class="button button-red" type="submit">Submit request <span>↗</span></button>
+          </form>
         </div>
       </section>
 
