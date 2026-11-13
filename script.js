@@ -8,7 +8,11 @@ menuButton.addEventListener('click', () => {
 });
 
 document.querySelectorAll('.main-nav a').forEach((link) => {
-  link.addEventListener('click', () => navigation.classList.remove('open'));
+  link.addEventListener('click', () => {
+    navigation.classList.remove('open');
+    menuButton.setAttribute('aria-expanded', 'false');
+    menuButton.setAttribute('aria-label', 'Open navigation');
+  });
 });
 
 const bulletinList = document.querySelector('#bulletin-list');
