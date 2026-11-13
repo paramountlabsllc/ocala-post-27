@@ -2,6 +2,10 @@
 
 A static, responsive Post 27 website built with HTML, CSS, and vanilla JavaScript.
 
+## Live site
+
+The latest published version is live at [paramountlabsllc.github.io/ocala-post-27](https://paramountlabsllc.github.io/ocala-post-27/).
+
 ## Run locally
 
 From the project directory:
@@ -23,6 +27,16 @@ Stop the temporary server with `Ctrl-C` in the terminal running it.
 - `assets/christy-moore.jpg` is the local Service Officer portrait.
 
 The site has no application server or build step. Forms use FormSubmit to send inquiries and newsletter signups to the configured Post 27 inbox.
+
+## Recent updates
+
+The latest GitHub changes include:
+
+- Added a Service Officer intake form with veteran contact details, service selection, supporting-document upload, and privacy guidance.
+- Connected the Service Officer request flow to the Post 27 contact inbox.
+- Improved form styling and increased contrast across the page for clearer reading and keyboard use.
+- Updated the hero to use the animated Post 27 flag video and refreshed the supporting image treatments.
+- Kept the bulletin board, leadership details, newsletter signup, and join forms as part of the responsive one-page experience.
 
 ## Publishing bulletin items
 
